@@ -25,6 +25,7 @@
 from __future__ import division, print_function, absolute_import
 import numpy as np
 import cv2
+# import matplotlib.pyplot as plt
 import os
 import argparse
 
@@ -41,6 +42,7 @@ from tflearn.layers.merge_ops import merge
 ################################################################################
 
 from xml_parsing import *
+#%matplotlib inline
 
 ################################################################################
 # use command line parser to read command line argument for file location
@@ -185,7 +187,7 @@ windowName = "example image"
 
 # show ground truth
 
-ground_truth = True;
+ground_truth = False;
 
 # process all images in directory (sorted by filename)
 
@@ -235,6 +237,7 @@ for filename in sorted(os.listdir(args.file_path)):
         	# ********************************************************
 
         # display in a window
+        cv2.imwrite(filename+'_sliding_window.jpg', clone)
 
 #         cv2.imshow(windowName,clone)
 #         key = cv2.waitKey(200) # wait 200ms
