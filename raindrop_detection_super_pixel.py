@@ -61,7 +61,7 @@ number = args.integers[0]
 # Image path
 # image_path = "raindrop_detection_images/%s.jpg" % number
 #/home/arnold/raindrop-detection-cnn/dataset/detection/image
-image_path = "/home/arnold/raindrop-detection-cnn/20191008T165026_BURT.jpg" 
+image_path = "/home/arnold/raindrop-detection-cnn/20161021T144502_BATA.jpg" 
 
 # Path to output the result image after raindrop detection
 result_path = "/home/arnold/raindrop-detection-cnn/img_%s_super_pixel_result.jpg" % number
