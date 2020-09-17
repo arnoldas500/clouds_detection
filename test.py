@@ -25,3 +25,5 @@ pts = deque(maxlen=args["buffer"])
 print(args["buffer"])
 
 print(pts)
+
+print(cv2.waitKey(1) & 0xFF)
