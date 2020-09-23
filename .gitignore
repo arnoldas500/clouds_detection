@@ -2,6 +2,8 @@ dataset/
 models/
 images/
 test/
+VOOR/
+.ipynb_checkpoints*
 mygeneratedvideo.mp4
 video_wdir.mp4
 imgvideo.mp4
